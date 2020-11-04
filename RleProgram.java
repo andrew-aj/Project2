@@ -170,7 +170,7 @@ public class RleProgram {
         System.out.println("Welcome to the RLE image encoder!\n");
         System.out.println("Displaying Spectrum Image:");
         ConsoleGfx.displayImage(ConsoleGfx.testRainbow);
-        System.out.println();
+        System.out.println();//comment
 
         //Allows the program to continuously run until the user selects 0 and the program stops.
         while (running) {
